@@ -1,16 +1,17 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { getDogBreed, getDogCategories } from '../../../breeds/breeds.axios'
-import { Product } from '../../../context/CardContext'
-import { useNavigate } from 'react-router-dom'
-// import {useHistory} from 'react-router-dom'
 
-const Petcard = () => {
+import { useNavigate } from 'react-router-dom'
+import { getDogBreed } from './breeds/breeds.axios'
+import { Product } from './context/CardContext'
+
+
+const PetCollection = () => {
     const [breed,setBreed] = useState([])
     const router = useNavigate()
 
     const getBreed = async () =>{
         const result = await getDogBreed()
-        const limit = result.slice(0,8)
+        const limit = result.slice(0,20)
         setBreed(limit)
     }
     useEffect(()=>{
@@ -67,4 +68,4 @@ const Petcard = () => {
   )
 }
 
-export default Petcard
+export default PetCollection

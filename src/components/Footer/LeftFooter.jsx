@@ -22,12 +22,12 @@ const LeftFooter = () => {
         <span className='gap-6 flex flex-col'>
             <h1 className='font-semibold'>Menu</h1>
             <span className='flex flex-col gap-2'>
-             <a href='/'>Home</a>
-              <a href='/'>About</a>
-              <a href='/'>Services</a>
-              <a href='/'>Breed</a>
-              <a href='/'>Shop</a>
-              <a href='/'>Contact</a>
+            <a href='#home' className=' hover:underline'>Home</a>
+          <a href='#about' className=' hover:underline'>About</a>
+          <a href='#service' className=' hover:underline'>Services</a>
+          <a href='#breed' className=' hover:underline'>Breed</a>
+          <a href='#shop' className='hover:underline'>Shop</a>
+          <a href='#gallery' className='hover:underline'>Gallery</a>
             </span>
         </span>
     </div>

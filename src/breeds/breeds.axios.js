@@ -15,3 +15,9 @@ export const getDogCategories = async ()=> {
       console.log("data",data)
       return data
 }
+
+export const getDogBreed = async () =>{
+  const response = await axios.get('https://api.thedogapi.com/v1/breeds')
+  const data = response.data
+  return data
+}

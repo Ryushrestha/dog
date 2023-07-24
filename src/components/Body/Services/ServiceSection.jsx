@@ -5,6 +5,8 @@ import ServiceCard from './ServiceCard'
 const ServiceSection = () => {
   return (
     <div className='flex flex-col items-center px-3 sm:px-5 md:px-10 lg:px-20 mt-4 gap-6'>
+      <a className='anchor' id='service'></a>
+
       <span className='flex flex-col items-center gap-4'>
         <h1 className='text-heading text-3xl font-bold' >Our Services</h1>
         <span className='items-center flex flex-col '>

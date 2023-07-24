@@ -4,6 +4,8 @@ const Left = () => {
     return (
         <>
             <div className='relative justify-center  h-full w-full mt-2'>
+      <a className='anchor' id='about'></a>
+
                 <img className='h-4/5 z-10' src='./background.png' />
                 <div className='absolute top-20 overflow-hidden border-4 border-white bg-white border-spacing-2  rounded-md h-1/2 w-1/2 z-20'>
                     <img className='h-full w-full   rounded-md' src='./yellow.jpg' />

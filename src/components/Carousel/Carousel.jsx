@@ -14,7 +14,7 @@ const Carousel = () => {
     }
   
     return (
-        <Slide className='w-auto' {...properties}>
+        <Slide className='w-auto '  {...properties}>
             <div className="" >
                 <div className='relative  h-40 sm:h-60 md:h-96' >
                     <img className=''  src='./dog1.jpg'/>
