@@ -1,0 +1,60 @@
+{
+    "services":[
+        {
+            "id":1,
+            "images": "https://img.freepik.com/free-photo/beautiful-pet-portrait-dog_23-2149218454.jpg?size=626&ext=jpg&uid=R100109627&ga=GA1.2.379185828.1688287874&semt=ais",
+            "service": "Dog/Cat Grooming",
+            "Description" : "We are enhancing our skills, salon, and equipment to meet the challenges of pet grooming."
+        },
+        {
+            "id":2,
+            "images": "https://img.freepik.com/free-photo/shiba-inu-dog-taking-walk_23-2149478689.jpg?size=626&ext=jpg&uid=R100109627&ga=GA1.2.379185828.1688287874&semt=ais",
+            "service": "Home Treatment",
+            "Description" : "Our clinic offers professional veterinary care with a focus on disease prevention, diagnosis, and treatment."
+        },
+        {
+            "id":3,
+            "images": "https://img.freepik.com/free-photo/close-up-hands-touching-dog_23-2149271868.jpg?size=626&ext=jpg&uid=R100109627&ga=GA1.2.379185828.1688287874&semt=ais",           
+            "service": "Clinical Treatment",
+            "Description" : "Our goal is to ensure pet welfare through home treatment and prompt client response."
+        },
+        {
+            "id":4,
+            "images": "https://img.freepik.com/free-photo/group-portrait-adorable-puppies_53876-64796.jpg?w=1380&t=st=1690126865~exp=1690127465~hmac=13dd1e9552a90176e9734812a0e4674b0f3eb05ef67932492b6e70e22f5efd56",
+            "service": "Puppies Buying & Selling",
+            "Description" : "We buy and sell common breed puppies like Golden Retriever, Husky, Pug, etc. 100% guarantee on the breed offered."
+        },
+        {
+            "id":5,
+            "images": "https://img.freepik.com/premium-photo/girl-throws-ball-dog-while-playing-park_466739-2373.jpg?w=996",
+            "service": "Dog Training",
+            "Description" : "Our team of dog trainers is passionate, dedicated, and has years of professional experience."
+        },
+        {
+            "id":6,
+            "images": "https://img.freepik.com/free-photo/husky-dogs-floor_144627-26020.jpg?size=626&ext=jpg&uid=R100109627&ga=GA1.2.379185828.1688287874&semt=ais",
+            "service": "Dog Matting",
+            "Description" : "Quality breeding requires experience and passion. We can arrange and facilitate quality breed mating."
+        }
+    ],
+    "blogs" :[
+        {
+            "id":1,
+            "images": "./blog1.png",
+            "name":"How to Choose the Right Bully Stick for Your Dog",
+            "description":"Below is an excerpt of porch.com article “ Moving with Pets? We have the Experts advice to do it Properly."
+        },
+        {
+            "id":2,
+            "images": "./blog2.png",
+            "name":"Saving Lives: Animal House Shelter And Downtown Pet Supply",
+            "description":"Below is an excerpt of porch.com article “ Moving with Pets? We have the Experts advice to do it Properly."
+        },
+        {
+            "id":3,
+            "images": "./blog3.png",
+            "name":"Himalayan Yak Chews: 11 Benefits You Need To Know",
+            "description":"Below is an excerpt of porch.com article “ Moving with Pets? We have the Experts advice to do it Properly."
+        }
+    ]
+}
